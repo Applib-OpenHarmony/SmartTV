@@ -28,6 +28,6 @@ jobs:
         uses: Applib-OpenHarmony/OpenHarmony-build@v2.11
       - name: Upload Artifact
         uses: actions/upload-artifact@v2
-        with: 
+        with:
           name: assets-for-download
           path: build\outputs\hap\debug\phone
