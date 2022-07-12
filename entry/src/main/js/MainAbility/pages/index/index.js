@@ -52,8 +52,8 @@ export default {
     },
     onTap: function (ele) {
         console.log(this.$element(ele) + " " + this.$element(ele).style.width);
-        this.$element(ele).style.width = '500fp';
-        this.$element(ele).style.height = '50fp';
+        this.$element(ele).style.width = '500vp';
+        this.$element(ele).style.height = '50vp';
         console.log(this.$element('myVideo'))
         this.$element('myVideo').attr.src = "common/image/4KColorExplosiononWHITEBackground.mp4"
     }

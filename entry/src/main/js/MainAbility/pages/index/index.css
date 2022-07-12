@@ -23,7 +23,7 @@
 }
 
 .container .menu_container {
-    margin: 20fp;
+    margin: 20vp;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -36,18 +36,18 @@
     justify-content: center;
     align-items: center;
     background-color: #868686;
-    border-radius: 10fp;
+    border-radius: 10vp;
 }
 
 .container .menu_container .menu image {
-    height: 20fp;
-    width: 20fp;
+    height: 20vp;
+    width: 20vp;
 }
 
 .container .menu_container image {
-    height: 30fp;
-    width: 30fp;
-    margin: 10fp;
+    height: 30vp;
+    width: 30vp;
+    margin: 10vp;
 }
 
 #myvideo {
@@ -66,79 +66,79 @@
     flex-direction: column;
     background-image: url("common/images/video_1.png");
     width: 100%;
-    height: 350fp;
+    height: 350vp;
     top: 0;
 }
 
 .container .menu_container #logo {
-    height: 20fp;
-    width: 50fp;
+    height: 20vp;
+    width: 50vp;
 }
 
 .container .menu_container #user {
-    height: 30fp;
-    width: 30fp;
+    height: 30vp;
+    width: 30vp;
 }
 
 .container .screens .s1 .top {
     justify-content: flex-end;
-    right: 0fp;
-    top: 0fp;
+    right: 0vp;
+    top: 0vp;
     position: absolute;
 }
 
 .container .screens .s1 .top image {
-    height: 30fp;
-    width: 30fp;
+    height: 30vp;
+    width: 30vp;
 }
 
 .container .screens .s1 .top text {
-    font-size: 20fp;
+    font-size: 20vp;
 }
 
 .container .screens .s1 .bottom {
-    margin-top: 20fp;
+    margin-top: 20vp;
     position: absolute;
 }
 
 .container .screens .s1 .bottom image {
-    height: 250fp;
-    width: 200fp;
-    margin: 10fp;
+    height: 250vp;
+    width: 200vp;
+    margin: 10vp;
 }
 
 .container .screens .s1 .bottom #item2 {
-    height: 200fp;
-    width: 150fp;
-    margin-top: 30fp;
+    height: 200vp;
+    width: 150vp;
+    margin-top: 30vp;
 }
 
 .container .screens .s1 .bottom #item3 {
-    height: 180fp;
-    width: 130fp;
-    margin-top: 40fp;
+    height: 180vp;
+    width: 130vp;
+    margin-top: 40vp;
 }
 
 .container .screens .s1 .bottom #item4 {
-    height: 160fp;
-    width: 120fp;
-    margin-top: 50fp;
+    height: 160vp;
+    width: 120vp;
+    margin-top: 50vp;
 }
 
 .container .screens .s1 .bottom #item5 {
-    height: 140fp;
-    width: 100fp;
-    margin-top: 60fp;
+    height: 140vp;
+    width: 100vp;
+    margin-top: 60vp;
 }
 
 .container .screens .s1 .bottom #item6 {
-    height: 120fp;
-    width: 80fp;
-    margin-top: 70fp;
+    height: 120vp;
+    width: 80vp;
+    margin-top: 70vp;
 }
 
 .container .screens .s2 {
-    margin-top: 20fp;
+    margin-top: 20vp;
     overflow: scroll;
     display: flex;
     flex-direction: row;
@@ -146,10 +146,10 @@
 }
 
 .container .screens .s2 image {
-    margin-top: 10fp;
-    margin: 10fp;
-    height: 80fp;
-    width: 160fp;
+    margin-top: 10vp;
+    margin: 10vp;
+    height: 80vp;
+    width: 160vp;
 }
 
 .head {
@@ -161,8 +161,8 @@
 .head text {
     font-family: Poppins;
     align-items: center;
-    font-size: 20fp;
-    margin: 10fp;
+    font-size: 20vp;
+    margin: 10vp;
     color: #868686;
 }
 
@@ -176,7 +176,7 @@
 }
 
 .sec1 .sec1_title text {
-    font-size: 20fp;
+    font-size: 20vp;
 }
 
 .sec1 .slides {
@@ -184,9 +184,9 @@
 }
 
 .sec1 .slides image {
-    height: 100fp;
-    width: 150fp;
-    margin: 10fp;
+    height: 100vp;
+    width: 150vp;
+    margin: 10vp;
 }
 
 /* xxx.css */
@@ -237,14 +237,14 @@
 
 @media screen and (device-type: tablet) and (orientation: landscape) {
     .title {
-        font-size: 100fp;
+        font-size: 100vp;
     }
 }
 
 
 @media screen and (device-type: wearable) {
     .title {
-        font-size: 28fp;
+        font-size: 28vp;
         color: #FFFFFF;
     }
 }
@@ -258,13 +258,13 @@
     }
 
     .title {
-        font-size: 100fp;
+        font-size: 100vp;
         color: #FFFFFF;
     }
 }
 
 @media screen and (device-type: phone) and (orientation: landscape) {
     .title {
-        font-size: 60fp;
+        font-size: 60vp;
     }
 }
